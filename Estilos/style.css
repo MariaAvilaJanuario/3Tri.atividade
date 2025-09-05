@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
     font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
-p {
+body {
+    width: 100%;
+}
+
+p.aviso { 
     color: rgb(255, 255, 255);
     background-color: #090B21;
     padding: 18px;
@@ -17,6 +22,20 @@ header {
     background-color: #90BAE1;
 }
 
+div.atalhos {
+    display: flex;
+    margin: 0px;
+    justify-content: space-around;
+    align-items: end;
+}
+
+img.desejados {
+    width: 20px;
+    padding: 5px;
+    margin: 5px;
+    justify-content: flex-end;
+}
+
 h1 {
     color: #ffffff;
     justify-content: center;
@@ -25,7 +44,7 @@ h1 {
     font-size: 50px;
 }
 
-img {
+img.logo {
     width: 400px;
     display: flex;
     
