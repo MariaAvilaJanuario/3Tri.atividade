@@ -16,10 +16,22 @@ header {
   z-index: 1000;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   width: 60px;
   margin: 0;
+  margin-right: 8px;
 }  
+
+.logo2 {
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: #ffffff;
+}
 
 a {
     color: #fff;
@@ -31,12 +43,6 @@ a:hover {
     color: #ff0037;
 }
   
-.logo2 {
-    font-size: 24px;
-    letter-spacing: 4px;
-    color: #ffffff;
-}
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -57,7 +63,7 @@ nav {
 }
   
   .mobile-menu {
-    display: block;
+    display: none;
     cursor: pointer;
 }
   
@@ -125,3 +131,24 @@ nav {
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
+
+.publicidade {
+  width: 100%;
+}
+
+.publicidade-texto {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.publicidade-texto:hover {
+  color: #000000;
+}
+
+footer {
+  background-color: #000000;
+}
