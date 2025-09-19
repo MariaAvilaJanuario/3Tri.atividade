@@ -196,3 +196,11 @@ footer {
   color: #ff0037;
   font-size: 12px;
 }
+
+.redes {
+  justify-content: center;
+}
+
+.icons {
+  width: 20px;
+}
